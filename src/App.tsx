@@ -6,6 +6,7 @@ function App() {
 
 const[task,setTasks]=useState<string[]>([]);
 
+
 const handleChange=(e:React.ChangeEvent<HTMLInputElement>)=>{
   console.log(e.target.value);
 }
